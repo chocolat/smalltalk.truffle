@@ -1,0 +1,10 @@
+(name eval)
+
+(trigger
+    (tab eval))
+
+(only-in source.smalltalk)
+
+(snippet [Eval [
+  %{0}
+]])

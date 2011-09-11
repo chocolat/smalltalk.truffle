@@ -1,0 +1,8 @@
+(name ifNil)
+
+(trigger
+    (tab ifn))
+
+(only-in source.smalltalk)
+
+(snippet [%{1="expression"} ifNil: [ %{0} ].])

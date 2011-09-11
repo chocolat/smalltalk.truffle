@@ -1,0 +1,12 @@
+(name [class (Object subclass: ...)])
+
+(trigger
+    (tab cla))
+
+(only-in source.smalltalk)
+
+(snippet [Object subclass: %{1="%{TM_FILENAME/(?:\A|_)([A-Za-z0-9]+)(?:\.st)?/(?2::\u$1)/g}"} [
+  <category: '%{2}'>
+  <comment: '%{3}'>
+  %{0}
+]])

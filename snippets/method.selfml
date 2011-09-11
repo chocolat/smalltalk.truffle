@@ -1,0 +1,11 @@
+(name method)
+
+(trigger
+    (tab method))
+
+(only-in source.smalltalk)
+
+(snippet [%{1="method_name"} [
+  <category: '%{2="accessing"}'>
+  %{0}
+]])

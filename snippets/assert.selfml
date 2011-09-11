@@ -1,0 +1,8 @@
+(name assert)
+
+(trigger
+    (tab as))
+
+(only-in source.smalltalk)
+
+(snippet [self assert: %{1="expression"}])

@@ -1,0 +1,10 @@
+(name class_method)
+
+(trigger
+    (tab cmethod))
+
+(only-in source.smalltalk)
+
+(snippet [%{1="%{TM_FILENAME/(?:\A|_)([A-Za-z0-9]+)(?:\.st)?/(?2::\u$1)/g}"} class >> %{2="method_name"} [
+  %{0}
+]])

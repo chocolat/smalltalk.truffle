@@ -1,0 +1,16 @@
+(detector
+    (extension st))
+
+(folding
+    (start `\[`)
+    (stop `^\s*\]|^\s\]`))
+
+(shell-variables
+    (TM_COMMENT_START ")
+    (TM_COMMENT_END "))
+
+(comment.block " ")
+
+(indentation.decrease `^\s+\]$`)
+
+(indentation.increase-next-line-only `^\s+\[.*$`)

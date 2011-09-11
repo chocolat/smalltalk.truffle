@@ -1,0 +1,8 @@
+(name comment)
+
+(trigger
+    (tab com))
+
+(only-in source.smalltalk)
+
+(snippet [<comment: '%{1}'>])

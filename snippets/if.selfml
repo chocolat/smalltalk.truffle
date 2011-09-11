@@ -1,0 +1,8 @@
+(name if)
+
+(trigger
+    (tab if))
+
+(only-in source.smalltalk)
+
+(snippet [%{1="expression"} ifTrue: [ %{2} ] ifFalse: [ %{3} ].])

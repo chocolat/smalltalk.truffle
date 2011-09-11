@@ -1,0 +1,8 @@
+(name ifTrue)
+
+(trigger
+    (tab ift))
+
+(only-in source.smalltalk)
+
+(snippet [%{1="expression"} ifTrue: [ %{0} ].])

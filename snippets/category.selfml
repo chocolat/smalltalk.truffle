@@ -1,0 +1,8 @@
+(name category)
+
+(trigger
+    (tab cat))
+
+(only-in source.smalltalk)
+
+(snippet [<category: '%{1}'>])
